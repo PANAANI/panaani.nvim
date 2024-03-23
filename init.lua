@@ -12,9 +12,11 @@ if not vim.loop.fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(lazypath)
 
+-- These are calls for my files
+require("jn/options")
+require("jn/keymaps")
+
 -- Load lazy
 require("lazy").setup("jn/plugins")
 	
--- These are calls for my files
-require("jn/options")
 
