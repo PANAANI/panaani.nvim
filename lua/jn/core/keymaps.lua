@@ -18,3 +18,9 @@ keymap("n", "<C-l>", "<C-w>l", opts)
 -- Escape insert mode easier
 keymap("i", "jk", "<ESC>", opts)
 
+-- Switch between buffers fast
+keymap("n", "<S-h>", ":bprevious<CR>", opts)
+keymap("n", "<S-l>", ":bnext<CR>", opts)
+
+-- Keymap for quiccly toggling the file explorer
+keymap("n", "<leader>e", ":NvimTreeToggle<CR>", opts)

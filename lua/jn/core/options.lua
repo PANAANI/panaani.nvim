@@ -8,6 +8,5 @@ vim.opt.splitright = true			-- same as above but for vertical splits
 vim.opt.wrap = false				-- always show lines as one long pötkylä
 vim.opt.undofile = true				-- allows nvim to create an 'undofile' which stores undo history so that it can persist through closing and reopening a file
 vim.opt.swapfile = false			-- disables the creation of swap-files
-vim.opt.showtabline = 2				-- always shows the different tabs you have open
-vim.opt.timeoutlen = 250			-- this changes the timeout time of keymap comption (in milliseconds)
-
+vim.opt.timeoutlen = 500			-- this changes the timeout time of keymap comption (in milliseconds)
+vim.opt.termguicolors = true		-- Bufferline needed this idk
