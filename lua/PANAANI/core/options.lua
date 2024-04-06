@@ -10,3 +10,6 @@ vim.opt.undofile = true				-- allows nvim to create an 'undofile' which stores u
 vim.opt.swapfile = false			-- disables the creation of swap-files
 vim.opt.timeoutlen = 500			-- this changes the timeout time of keymap comption (in milliseconds)
 vim.opt.termguicolors = true		-- Bufferline needed this idk
+vim.opt.scrolloff = 999				-- Changes it so that the cursor doesn't have to reach top/bottom of the page for scrolling to happen
+vim.opt.virtualedit = "block"		-- Makes empty cells selectable in VISUAL BLOCK mode.
+vim.opt.ignorecase = true			-- Pretty self explanatory

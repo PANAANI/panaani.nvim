@@ -13,5 +13,5 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 -- Load lazy
-require("lazy").setup("jn/plugins")
+require("lazy").setup("PANAANI/plugins")
 	
